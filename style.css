@@ -48,7 +48,6 @@ body{
     color: #469165;
 }
 .hero-section {
-    /* justify-content: center; */
     align-items: center;
     margin: 25px auto;
     max-width: 1600px;
@@ -87,7 +86,6 @@ body{
 }
 .hero-section{
     position: relative;
-    /* height: 100vh; */
     justify-content: center;
 }
 .hero-tittle{
@@ -129,9 +127,7 @@ body{
 }
 .Structure-Does{
     max-width: 1360px;
-    /* justify-content: center; */
     align-items: center;
-    /* margin: 20px auto 15px; */
      margin: 10px auto 40px;
      padding: 0 20px;
 }
@@ -197,7 +193,6 @@ body{
 }
 .soulition-section{
     display: flex;
-    /* flex-direction: column; */
     max-width: 1360px;
     gap: 80px;
     margin: 40px auto;
@@ -225,15 +220,15 @@ body{
     font-weight: 500;
     text-align: left;
     margin-bottom: 15px;
+    margin-top: 20px;
 }
 .chack li i{
     color: #469165;
-    /* list-style: none; */
-    /* margin-left: 10 px; */
 }
 .chack li{
     list-style: none;
     margin-bottom: 5px;
+    margin-top: 20px;
 }
 .ready-think-section{
     max-width: 1360px;
@@ -271,4 +266,43 @@ body{
     color: #627382;
     margin-top: 10px;
 }
-
+.footer-contant{
+    background-color: #001931;
+}
+.footer-section{
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    padding: 80px 50px;
+    margin: 0 auto;
+}
+.socal-cointainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.socal-icon{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.socal-icon li:hover{
+    color: #469165;
+}
+.hr-line{
+    color: #627382;
+    max-width: 1500px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+.footer{
+color: #ffffff;
+justify-content: center;
+align-items: center;
+text-align: center;
+margin-bottom: 20px;
+padding: 10px;
+}
